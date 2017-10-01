@@ -104,6 +104,8 @@ Install following packages
 </center>
 
 
+Head to [recommended](#recommended) section for things you'll need for this lecture  
+
 ___
 <a name="linux_users"></a>
 ## Linux Users
@@ -172,7 +174,11 @@ sh studio.sh
     <img src="{{ "images/installation/android_sdk_tools_linux.png" | prepend: site.asset_add }}" alt="SDKtools" style="width:100%;">
 </a>
 
+<a name="recommended"></a>
 ## **Recommended**
+
+__Bring your USB cable so that you can test application on your own device!__  
+
 **(For first time users)**  
 1. Ensure an interent connection on your machine
 2. Start Android Studio
