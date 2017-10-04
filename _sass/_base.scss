@@ -247,6 +247,8 @@ section {
   }
   &.group{
     padding: 0;
+    width: 100%;
+    overflow: hidden;
   }
   &.meet{
     .section-heading {

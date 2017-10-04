@@ -4,7 +4,7 @@ email: sdsmdg@gmail.com
 description: Where ideas meet reality
 
 url: "http://mdg.sdslabs.co/" # the base hostname & protocol for your site
-
+asset_add: /assets/
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
 data-ad-slot: 
@@ -12,6 +12,7 @@ data-ad-client:
 google_ad_client: 
 google_analytics: 
 addthis_id: 
+disqus_account: mdg-sdslabs-co
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
