@@ -41,7 +41,7 @@ An android application can run either on your device or in the emulator that com
 JDK and JRE are essential for JAVA to run on your machine.
 
 ## For windows:
-
+(linux users click [here](#linux_users))
 ### Installing JAVA
 Follow [the link](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and click Java Platform (JDK) 8u144 photograph. It redirects to a new page on which select Accept the license and download the version which is best suited with your machine.
 After installing the JDK, you need to set the environment variable JAVA_HOME path and for that: 
@@ -105,8 +105,8 @@ Install following packages
 
 
 ___
-
-## **For Linux Users :** 
+<a name="linux_users"></a>
+## Linux Users
 ### Installing JAVA
 Open your terminal using <key>Alt</key> + <key>Ctrl</key> + <key>T</key> (or by searching for terminal) and enter commands below in order to install JDK and JRE.  
 
@@ -144,7 +144,7 @@ If there is still some error, you can also refer to [here](http://www.wikihow.co
 ******
 1. [Follow this link](https://developer.android.com/sdk/index.html) -> select All Android Studio Packages -> Linux. This will start the download.  
 
-2. Extract the file. 
+2. Extract the file where you want to install Android Studio. 
 
 3. In terminal type:
 ```shell
@@ -163,7 +163,7 @@ sh studio.sh
 • Click on the SDK Manager icon (containing android and a down arrow).
 <center>
 <a href="{{ "images/installation/configure_linux.jpg" | prepend: site.asset_add }}">
-    <img src="{{ "images/installation/configure_linux.jpg" | prepend: site.asset_add }}" alt="Configure" style="width:50%;" border="5">
+    <img src="{{ "images/installation/configure_linux.jpg" | prepend: site.asset_add }}" alt="Configure" style="width:70%;" border="5">
 </a>
 </center>
 <br>
@@ -172,8 +172,24 @@ sh studio.sh
     <img src="{{ "images/installation/android_sdk_tools_linux.png" | prepend: site.asset_add }}" alt="SDKtools" style="width:100%;">
 </a>
 
+## **Recommended**
+**(For first time users)**  
+1. Ensure an interent connection on your machine
+2. Start Android Studio
+3. Click *Start a new Android Studio Project*
+4. On screen *Configure you new project* leave default options and click *Next*
+5. Leave default options unchanged and click *Next*.
+6. Select *Empty Activity* and click *Next*.
+7. Leave default options unchanged and click *Finish*.
+8. If Android Studio asks allow it to download additional content.
+
+These steps are necessary for first time user to ensure everything is downloaded when you come to the lecture.
+
+**(For linux users only)**  
+Adding shortcut to android studio in launcher/desktop: [How to add Android Studio to the launcher?](https://askubuntu.com/questions/298857/how-to-add-android-studio-to-the-launcher#463288)
+
 ## **Some Common errors:**
-* unable to access android sdk add-on list:
+* Unable to access android sdk add-on list:
 [First run of Android Studio. Unable to access Android SDK add-on list](http://stackoverflow.com/questions/29878370/android-studio-first-run-error)
 	1. Turn off the firewall.
 	2. Run Studio again.
