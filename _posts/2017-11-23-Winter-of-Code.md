@@ -48,4 +48,4 @@ Trianglify demo is an application that allows users to generate and save triangl
 “Calling Text” is a mobile application which helps you attach a message/gif with your call so that the receiver can know why you
 were calling. Calling Text will completely transform your mobile phone experience with a smarter set of features that will improve your daily life. To know more see the [video](https://drive.google.com/file/d/0BwWi9P0FIpHjX2otZ2lBVGU1cFE/view) or visit our [github repo](https://github.com/sdsmdg/calling_text).
 
-*So guys, grab your cup of coffee and prepare yourself for a month long journey of writing beautiful software.  *
+*So guys, grab your cup of coffee and prepare yourself for a month long journey of writing beautiful software.*
