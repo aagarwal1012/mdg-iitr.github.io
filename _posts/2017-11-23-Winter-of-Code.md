@@ -8,7 +8,7 @@ tags: [Winter of Code, Development, Mobile Development Group, MDG]
 ---
 
 ## <b>Introduction</b>
-Winter of Code is an initiaitive by MDG which is focused on bringing more student developers into open source software development. Students work on a one month programming project with a mentor during their winter break.
+Winter of Code is an initiaitive by SDS which is focused on bringing more student developers into open source software development. Students work on a one month programming project with a mentor during their winter break.
 
 Students are expected to come up with a proposal of what they want to do during the programme. Students can either collaborate with MDG on their existing projects or they can come up with their own ideas and work on them. The submitted proposals will be evaluated and students will be selected based on the proposal and student profile. Selected students will be mentored by MDG on a one month long exhilirating journey of converting *Caffeine to Code*.
 <br>
@@ -23,7 +23,7 @@ The programme will begin with the submissions of student proposals. After carefu
 
 ### <b>Types of Proposals</b>
  <b>1. Existing MDG Projects : </b>
-   Students wishing to collaborate with MDG on their existing projects can choose from any of the projects given [below](#projects). Before submitting proposals for contributing to one of the existing projects, take a detailed analysis of the project. Go through their Github repos and take a look at their READMEs and Contributing guides. After choosing the project, students have to submit their  proposal stating the strategy and timeline which they will be following during the programme to implement the TODOs as per project requirements mentioned in the READMEs. Students can also suggest any new changes or features(optional) which they wish to include in the project. To get an understanding of how proposals are to be drafted, take a look at this [blog](http://teom.org/blog/kde/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/).
+   Students wishing to collaborate with MDG on their existing projects can choose from any of the projects given [below](#projects). Before submitting proposals for contributing to one of the existing projects, take a detailed analysis of the project. Go through their Github repos and take a look at their READMEs and Contributing guides. After choosing the project, students have to submit their  proposal stating the strategy and timeline which they will be following during the programme to implement the TODOs as per project requirements mentioned in the READMEs. Students can also suggest any new changes or features(optional) which they wish to include in the project. To get an understanding of how proposals are to be drafted, take a look at this [blog](http://teom.org/blog/kde/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/) or take a look at this original [GSOC proposal](https://docs.google.com/document/d/18RtcDatYzZ1gpztFUM8K2MUaYfIAwvVFIJKCR-xf6BE/edit?usp=sharing) by one of our members.
 
 
  <b>2. Proposed apps by students : </b>
