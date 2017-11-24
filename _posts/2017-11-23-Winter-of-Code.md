@@ -33,7 +33,7 @@ The programme will begin with the submissions of student proposals. After carefu
 
 ## <b> Our Projects </b>
 
-#### <b> FLASTO</b>
+#### <b> FLASTO (FLoating ASsistive TOuch) </b>
 This project will consist of a standalone android library implementing various features of floating heads (eg: messenger chat head). This library targets those developers who wish to include messenger like features viz chat heads, running foreground tasks , can be accommodated in music players, providing easy and beautiful navigation  etc giving programmers the ease of customisation without having to code difficult aspects themselves.
 
 For instance, consider the example of a Notes application. When the application is minimised a chat head will pop up at the side and while doing other work (for eg reading an article), quick notes can be taken by tapping on chat heads. This is a great example of FLASTO integration in different apps. To know more, visit our [github repo](https://github.com/sdsmdg/flasto).
@@ -45,7 +45,7 @@ Trianglify demo is an application that allows users to generate and save triangl
 
 #### <b>Calling-Text</b>
 
-“Calling Text” is a mobile application which helps you attach a message/gif with your call so that the receiver can know why you
-were calling. Calling Text will completely transform your mobile phone experience with a smarter set of features that will improve your daily life. To know more see the [video](https://drive.google.com/file/d/0BwWi9P0FIpHjX2otZ2lBVGU1cFE/view) or visit our [github repo](https://github.com/sdsmdg/calling_text).
+Calling-Text is a mobile application which helps you attach a message/gif with your call so that the receiver can know why you
+were calling. Calling Text will completely transform your mobile phone experience with a smarter set of features that will improve your daily life. To know more, see the [video](https://drive.google.com/file/d/0BwWi9P0FIpHjX2otZ2lBVGU1cFE/view) or visit our [github repo](https://github.com/sdsmdg/calling_text).
 
 *So guys, grab your cup of coffee and prepare yourself for a month long journey of writing beautiful software.*
