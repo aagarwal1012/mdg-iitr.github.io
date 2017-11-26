@@ -17,7 +17,9 @@ Students are expected to come up with a proposal of what they want to do during 
 
 The programme will begin with the submissions of student proposals. After careful evaluation of all the proposals, few students will be selected for the projects. The selected students will work on their proposals for the entire month of December. They will be guided by mentors from MDG and their work will be evaluated periodically. Given below are the important dates for the programme.
 
-<b>Deadline for proposal :</b> 30 November
+<b>Registration Link :</b> [https://woc.sdslabs.co/](https://woc.sdslabs.co/)
+
+<b>Deadline for proposal :</b> 11:59 PM, 30 November, 2017
 
 <b>Project timeline :</b> 3 December - 30 December (4 weeks)
 
