@@ -2,6 +2,7 @@
 layout: post
 title: Introduction To Android Development
 category: Introduction
+visible: 1
 tags: [intro]
 ---
 

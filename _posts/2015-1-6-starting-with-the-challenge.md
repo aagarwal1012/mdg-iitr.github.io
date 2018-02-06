@@ -3,7 +3,7 @@ layout: post
 title: Starting with the challenge
 tagline:  Setting up the development environment
 visible: 1
-category: Droid Wars
+category: DroidWars
 tags: [recruitments]
 ---
 

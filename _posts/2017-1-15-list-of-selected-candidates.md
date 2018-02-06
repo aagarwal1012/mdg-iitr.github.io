@@ -3,7 +3,7 @@ layout: post
 title: Recruitments 2017
 tagline: Recruitments 2017
 visible: 1
-category: Droid Wars
+category: DroidWars
 tags: [recruitments]
 ---
 

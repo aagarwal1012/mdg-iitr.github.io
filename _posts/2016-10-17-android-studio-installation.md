@@ -2,8 +2,8 @@
 layout: post
 title: Android Studio Installation
 tagline: Android Studio 2.2 setup instructions
-visible: 1
-category: Android Studio Installation
+visible: 0
+category: Introduction
 tags: [androidstudio,setup,installation]
 ---
 
@@ -89,4 +89,4 @@ You can keep all default settings in the Installation wizard and once installati
 ![android sdk](https://lh3.googleusercontent.com/-FeeBvpav4eo/WAHP_ZJhciI/AAAAAAAADzM/KbnVOTqa_kY7GLcH2UduIGQqZvDO6HPbACLcB/s0/Screenshot+from+2016-10-05+17-11-48.png "sdk")
 
 
-*If you face any problem you can contact us at [Chat](http://mdg.sdslabs.co/chat)*
+*If you face any problem you can contact us at [Chat](http://mdg.iitr.ac.in/chat)*

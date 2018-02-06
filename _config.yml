@@ -1,6 +1,6 @@
 # Site settings
 title: Mobile Development Group, IIT Roorkee
-email: sdsmdg@gmail.com
+email: sdsmobilelabs@gmail.com
 description: Where ideas meet reality
 
 url: "http://mdg.iitr.ac.in/" # the base hostname & protocol for your site
@@ -16,13 +16,14 @@ disqus_account: mdg-sdslabs-co
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
-#  - title: twitter
+  - title: twitter
+    url: https://twitter.com/sdsmdg
   - title: facebook
     url: https://facebook.com/mdgiitr
   - title: google-plus
     url: https://plus.google.com/u/0/105615084243375129004
   - title: github
-    url: http://github.com/sdsmdg
+    url: https://github.com/sdsmdg
   
 
 # Build settings

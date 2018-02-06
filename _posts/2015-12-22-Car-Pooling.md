@@ -3,7 +3,7 @@ layout: post
 title: Droid Wars - Problem 2
 tagline: Application development Challenge.
 visible: 0
-category: Droid Wars
+category: DroidWars
 tags: [recruitments]
 date: 2015-12-22 20:00
 ---

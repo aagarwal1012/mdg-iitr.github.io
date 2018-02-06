@@ -2,8 +2,8 @@
 layout: post
 title: Google Maps Android API v2
 tagline: Integration of Google Maps with your app
-visible: 1
-category: Google Maps API V2
+visible: 0
+category: GoogleMaps
 tags: [Google Maps API]
 ---
 
