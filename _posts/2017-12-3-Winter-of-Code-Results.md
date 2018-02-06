@@ -6,7 +6,7 @@ visible: 1
 category: WoC
 tags: [Winter of Code, Development, Mobile Development Group, MDG]
 ---
-The following are the students selected for the Winter of Code 2017. Congratulations to all the accepted people. Your mentors will reach out to you by tomorrow and for any doubt you can ping us on [our chat](https://mdg.sdslabs.co/chat)! We are excited and looking forward to working with you.
+The following are the students selected for the Winter of Code 2017. Congratulations to all the accepted people. Your mentors will reach out to you by tomorrow and for any doubt you can ping us on [our chat](/chat)! We are excited and looking forward to working with you.
 
   * <font size = "3">Bhavye Jain</font>
   * <font size = "3">Korra Naresh</font>

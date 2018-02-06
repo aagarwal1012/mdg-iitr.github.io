@@ -3,7 +3,7 @@ layout: post
 title: Droid Wars
 tagline: Recruitment challenge for Mobile Development Group
 visible: 1
-category: Droid Wars
+category: DroidWars
 tags: [recruitments]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: Installation
 tagline: Android Studio Installation.
-visible: 1
+visible: 0
 category: Introduction
 tags: [intro]
 ---

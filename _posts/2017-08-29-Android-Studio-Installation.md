@@ -213,4 +213,4 @@ Adding shortcut to android studio in launcher/desktop: [How to add Android Studi
 - [What is difference between JDK and JRE](http://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre) - StackOverflow  
 - [What does Java home environment variables do?](http://stackoverflow.com/questions/5102022/what-does-the-java-home-environment-variable-do) - StackOverflow  
 
-For any queries feel free to ask down in comments or [chat with us](http://mdg.sdslabs.co/chat) !
+For any queries feel free to ask down in comments or [chat with us](/chat) !

@@ -3,7 +3,7 @@ layout: post
 title: Recruitments 2018
 tagline: Recruitments 2018
 visible: 1
-category: Droid Wars & WoC
+category: DroidWars
 tags: [recruitments]
 ---
 
