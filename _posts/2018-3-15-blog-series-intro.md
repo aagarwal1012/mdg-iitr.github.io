@@ -53,7 +53,7 @@ lecture's GitHub repo, at the end of each blog we'll add few problems
 which will be related to the lecture. To submit solution, fork the
 repo and create a pull request with your solution in a new directory.
 
-You can find the first blog on Git and Linux [here](103.37.200.126/wail).
+You can find the first blog on Linux intro [here]({% post_url 2018-3-17-linux-intro %}).
 
 If you have any questions regarding the series or the any of the
 blogs, please ask us in the comments section below or at

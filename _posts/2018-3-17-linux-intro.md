@@ -12,7 +12,7 @@ The Unix OS
 
 Made up of three parts kernel, shell and programs.
 
-The kernel  
+**The Kernel**  
 --------
 The kernel of UNIX is the hub of the operating system: it allocates
  time and memory to programs and handles the filestore and
@@ -27,7 +27,7 @@ name as a parameter. When the process `rm myfile` has finished
 running, the shell then returns the UNIX prompt % to the user,
 indicating that it is waiting for further commands.
 
-The shell  
+**The Shell**  
 --------
 The shell acts as an interface between the user and the kernel. When a
 user logs in, the login program checks the username and password, and
@@ -37,7 +37,7 @@ and arranges for them to be carried out.  The commands are themselves
 programs: when they terminate, the shell gives the user another prompt
 (% on our systems).
 
-Files and processes  
+**Files and processes**
 --------
 Everything in UNIX is either a file or a process.
 
@@ -47,7 +47,7 @@ identifier).
 A file is a collection of data. They are created by users using text
 editors, running compilers etc.
 
-Some common commands  
+**Some common commands**
 --------
 * `ls` : list of files (can also be used as ls {dir_name})
   * `-a` : files that are normally hidden
@@ -86,26 +86,24 @@ Some common commands
   * whatis wc
   * apropos copy
 
-The directory structure  
+**The directory structure**
 --------
-| Path | Description |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| / | This is the root directory which should contain only the directories needed at the top level of the file structure |
-| /bin | This is where the executable files are located. These files are available to all users |
-| /dev | These are device drivers |
-| /etc | Supervisor directory commands, configuration files, disk configuration files, valid user lists, groups, ethernet, hosts, where to send critical messages |
-| /lib | Contains shared library files and sometimes other kernel-related files |
-| /boot | Contains files for booting the system |
-| /home | Contains the home directory for users and other accounts |
-| /mnt | Used to mount other temporary file systems, such as cdrom and floppy for the CD-ROM drive and floppy diskette drive, respectively |
-| /proc | Contains all processes marked as a file by process number or other information that is dynamic to the system |
-| /tmp | Holds temporary files used between system boots |
-| /usr | Used for miscellaneous purposes, and can be used by many users. Includes administrative commands, shared files, library files, and others |
-| /var | Typically contains variable-length files such as log and print files and any other type of file that may contain a variable amount of data |
-| /sbin | Contains binary (executable) files, usually for system administration. For example, fdisk and ifconfig utlities |
-| /kernel | Contains kernel files |
+* `/` - This is the root directory which should contain only the directories needed at the top level of the file structure 
+* `/bin` - This is where the executable files are located. These files are available to all users 
+* `/dev` - These are device drivers 
+* `/etc` - Supervisor directory commands, configuration files, disk configuration files, valid user lists, groups, ethernet, hosts,where to send critical messages 
+* `/lib` - Contains shared library files and sometimes other kernel-related files 
+* `/boot` - Contains files for booting the system 
+* `/home` - Contains the home directory for users and other accounts 
+* `/mnt` - Used to mount other temporary file systems, such as cdrom and floppy for the CD-ROM drive and floppy diskette drive, respectively 
+* `/proc` - Contains all processes marked as a file by process number or other information that is dynamic to the system 
+* `/tmp` - Holds temporary files used between system boots 
+* `/usr` - Used for miscellaneous purposes, and can be used by many users. Includes administrative commands, shared files, library files, and others 
+* `/var` - Typically contains variable-length files such as log and print files and any other type of file that may contain a variable amount of data 
+* `/sbin` - Contains binary (executable) files, usually for system administration. For example, fdisk and ifconfig utlities 
+* `/kernel` - Contains kernel files 
 
-File system security  
+**File system security**
 --------
 Each file (and directory) has associated
 access rights, which may be found by typing ls -l. Also, ls -lg gives
@@ -156,20 +154,20 @@ directory containing that file, and hence on any directory containing
 that directory as a subdirectory, and so on, up the tree.
 
 ### Changing permissions  
+Some common options for permissions are:
+
+* `u` - user
+* `g` - group
+* `o` - other
+* `a` - all
+* `r` - read
+* `w` - write (and delete)
+* `x` - execute (and access directory)
+* `+` - add permission
+* `-` - take away permission
+
 For example, to remove read write and execute permissions on the file
 biglist for the group and others, type
-
-|    Symbol   |         Description			   |
-|-------------|--------------------------------|
-| u           | user                      	   |
-| g           | group                          |
-| o           | other  						   |
-| a           | all  						   |
-| r           | read  						   |
-| w           | write (and delete) 			   |
-| x           | execute (and access directory) |
-| +           | add permission  			   |
-| -           | take away permission  		   |
 
 ```shell
 ~$ chmod go-rwx biglist
@@ -189,7 +187,7 @@ r = 4 | w = 2 | x = 1
 ~$ chmod 755 MyDir
 ```
 
-The root user
+**The root user**
 --------
 Both `su` and `sudo` are used to run commands with root
 permissions. The root user is basically equivalent to the
@@ -219,7 +217,7 @@ password before running command as the root user. By default, Ubuntu
 remembers the password for fifteen minutes and won’t ask for a
 password again until the fifteen minutes are up.
 
-Processes and Jobs
+**Processes and Jobs**
 --------
 A process is an executing program identified by a unique PID (process
 identifier). To see information about your processes, with their
@@ -252,7 +250,7 @@ An example of a job list could be
 * [2] Running netscape
 * [3] Running matlab
 
-UNIX variables
+**UNIX variables**
 --------
 Variables are a way of passing information from the shell to programs
 when you run them. Programs look "in the environment" for particular
@@ -280,7 +278,7 @@ To show all values of these variables, type
 ~$ printenv | less
 ```
 
-Changing visibility of a process
+**Changing visibility of a process**
 --------
 To send a process to background add an ampersand `&` at the end of the command, for example:
 ```shell
@@ -296,7 +294,7 @@ To read more about `&`, `disown` and `nohup`, you can
 head
 [here](https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and#148698).
 
-Further exploration
+**Further exploration**
 -------
 kill, sleep, file, diff, find, history, setting up env variables etc.
 
@@ -311,8 +309,7 @@ chgrp                 # change file group
 ping -c4 8.8.8.8      # to send 4 packets to google's server at 8.8.8.8
 sudo lsof -i          # to list network sockets
 ```
-DNS == Domain Name System
-            DNS contains records , few of which map domain names to their IP addresses.
+**DNS** (Domain Name System) - contains records , few of which map domain names to their IP addresses.
 
 ```shell
 host google.com           # This command can be used to look the DNS records
