@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog-Series-Intro
+title: Intro-Blog
 tagline: MDG's blog series!
 visible: 1
 category: summer-blog
