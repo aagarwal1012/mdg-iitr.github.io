@@ -2,3 +2,11 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .idea
+
+# dolphin file browser generated file
+.directory
+
+# Emacs generated files (autosave, original and lock-files)
+[#]*[#]
+*~
+.#*
