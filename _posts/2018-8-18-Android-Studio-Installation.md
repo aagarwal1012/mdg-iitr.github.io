@@ -154,6 +154,12 @@ There is no need to install Java as latest Android Studio versions already come 
 	   <img src="{{ "/images/installation/downloading_components.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
    </a>
 
+9. The Android Studio window shall open. Click the option *Create Desktop Entry* from the *Configure Menu* to create shortcut to android studio in launcher. This avoids the need to open the terminal each time you want to launch the Studio.
+   <a href="{{ "/images/installation/desktop_entry.png" | prepend: site.asset_add }}">
+	   <img src="{{ "/images/installation/desktop_entry.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
+   </a>
+
+
 <a name="recommended"></a>
 ## **Recommended**
 
@@ -167,12 +173,29 @@ __Bring your USB cable so that you can test application on your own device!__
 5. Leave default options unchanged and click *Next*.
 6. Select *Empty Activity* and click *Next*.
 7. Leave default options unchanged and click *Finish*.
-8. If Android Studio asks allow it to download additional content.
+8. If Gradle build fails (check the status bar at the bottom) and Android Studio asks to download additional packages, allow it.
+9. Keep repeating *step 8* till you get a successful gradle build (status bar will say: Gradle build finished).
+10. Keep this project open as you will run this test app on your phone later.
 
-These steps are necessary for first time user to ensure everything is downloaded when you come to the lecture.
+**(Enable USB Debugging in your phone and run)**  
+* Follow [this](https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_debugging_on_an_android_device.html "usb debugging") to enable USB debugging in your Android phone.
 
-**(For linux users only)**  
-Adding shortcut to android studio in launcher/desktop: [How to add Android Studio to the launcher?](https://askubuntu.com/questions/298857/how-to-add-android-studio-to-the-launcher#463288)
+**(Run the Test app on your phone)**  
+1. After following the above two steps, it's time to build and run your first test app (A HelloWorld app, if you will) on your phone.
+2. Connect your phone to your PC via the usb cable.
+3. Allow USB debugging if asked to in your Android device.
+4. Now, open the empty Project we created before in Android Studio.
+5. Click *Run 'app'* (<key>Shift</key> + <key>F10</key>) option in the *Run* menu.
+6. A dialog should appear allowing you to select your device.
+   <a href="{{ "/images/installation/run_app_on_phone.png" | prepend: site.asset_add }}">
+	   <img src="{{ "/images/installation/run_app_on_phone.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
+   </a>
+7. Click *OK* and wait for your first app to run on your own phone.
+
+
+These steps are necessary for first time user to ensure everything is downloaded when you come to the lecture. 
+
+If you have any trouble setting up your development environment, feel free to [contact us](/chat "MDG chat")!
 
 ## **Some Common errors:**
 * Unable to access android sdk add-on list:
