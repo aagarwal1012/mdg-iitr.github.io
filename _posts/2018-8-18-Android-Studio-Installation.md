@@ -13,108 +13,67 @@ tags: [intro]
 With over **1 billion** Android devices already activated, Android represents an incredible opportunity for developers.
 Android Studio is a latest and most widely accepted IDE designed by Google itself. If you want to develop apps in android then it is highly recommended to use Android Studio.
 
-----------
-
 ## Quick Overview ##
 A typical native android application is written using XML for the frontend (the User Interface) and JAVA for the backend.
 
-----------
 **JAVA**
 All the programming part in android development is done using JAVA. Although it’s a great advantage, if you know a thing or two about programming in Java, but even if you know any object oriented programming language, then it will not be much difficult to relate to the concepts used during development. In short if you know C++ or C then also you are at peace.
 
-
-----------
 **XML**
 This is used to build the app’s user interface. All user interface elements in an Android app are built using View and ViewGroup objects. It has drag and drop User Interface
 
-
-----------
 **Running the app**
 An android application can run either on your device or in the emulator that comes bundled with the SDK. Since the emulators can be slow, it is always recommended to use an actual device. [This link](http://developer.android.com/intl/zh-cn/training/basics/firstapp/running-app.html) contains the detailed explanation for setting up your device/emulator for testing.
 
 
-----------
 
 Installation of Android Studio
 ------------------
 
 JDK and JRE are essential for JAVA to run on your machine.
 
-## Windows Users
-(linux users click [here](#linux_users))
-
-### Installing JAVA
-
-Follow [the link](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and click Java Platform (JDK) 8u144 photograph. It redirects to a new page on which select Accept the license and download the version which is best suited with your machine.
-After installing the JDK, you need to set the environment variable JAVA_HOME path and for that: 
- 
-1. For this, right-click on the 'This PC' icon on your desktop and select 'Properties'. On the next screen that appears, go to 'Advanced system settings' item. On the 'System Properties' window that appears, select the 'Environment Variables' button.      
-<a href="{{ "images/installation/system_properties.png" | prepend: site.asset_add }}">
-    <img src="{{ "images/installation/system_properties.png" | prepend: site.asset_add }}" alt="System Properties">
-</a> 
-
-2. The 'Environment Variables' window will appear (see figure below). Click on the 'New...' button.  
-<a href="{{ "images/installation/environment_variables.png" | prepend: site.asset_add }}">
-    <img src="{{ "images/installation/environment_variables.png" | prepend: site.asset_add }}" alt="Environment Variables">
-</a> 
-
-3. The 'New System Variable' window will appear (see the figure below). Enter 'JAVA_HOME' as the variable name andC:\Program Files\Java\jdk1.8.0_144' as the variable value. Then click the 'OK' button.  
-<a href="{{ "images/installation/new_system_variable.png" | prepend: site.asset_add }}">
-    <img src="{{ "images/installation/new_system_variable.png" | prepend: site.asset_add }}" alt="New System Variable">
-</a>
-
-4. Scroll down the 'System variables' window until you see the 'Path' item, then click on it. Then click on the 'Edit...' button. The 'Edit Environment Variable' window will appear. Click on the 'new' button then type the following into the field that gets highlighted:
-
-```
-  C:\Program Files\Java\jdk1.8.0_144\bin\
-``` 
-The completed screen will look something like this:
-
-<a href="{{ "images/installation/edit_path_screeenshot.png" | prepend: site.asset_add }}">
-    <img src="{{ "images/installation/edit_path_screeenshot.png" | prepend: site.asset_add }}" alt="Edit Environment Variable">
-</a>
-
-For reference, one can visit [this link](http://ridz1ba.blogspot.in/2015/01/how-to-install-oracle-java-and-andoid.html) 
-
-### Installing IDE
-
-• Go to [this link](http://developer.android.com/sdk/index.html) and select “Download Android Studio for Windows”.
-
-• Check the “ I have read and agree with the above terms and conditions” box and Download Android Studio For Windows.
-
-• Install studio after downloading.
-
-• Open the Android Studio. A window similar to the below one would appear.
-<center>
-    <a href="{{ "images/installation/configure.png" | prepend: site.asset_add }}">
-        <img src="{{ "images/installation/configure.png" | prepend: site.asset_add }}" alt="New Project" style="width:80%;">
-    </a>
-</center>
-
-• Click on configure and choose SDK Manager in drop down menu.   
-<center>
-    <a href="{{ "images/installation/configure_linux.jpg" | prepend: site.asset_add }}">
-        <img src="{{ "images/installation/configure_linux.jpg" | prepend: site.asset_add }}" alt="Configure">
-    </a>
-</center>
-
-Install following packages
-<center>
-    <a href="{{ "images/installation/SDKTools.jpg" | prepend: site.asset_add }}">
-        <img src="{{ "images/installation/SDKTools.jpg" | prepend: site.asset_add }}" alt="Configure" style="width:100%;">
-    </a>
-</center>
-
-
-Head to [recommended](#recommended) section for things you'll need for this lecture  
-
-___
-<a name="linux_users"></a>
-## Linux Users
-
 ### Installing JAVA
 
 There is no need to install Java as latest Android Studio versions already come with JDK bundled with it. [See here](https://stackoverflow.com/a/42182755/7263373) for more information.
+
+## Windows Users
+(linux users click [here](#linux_users))
+
+### Installing IDE
+
+• Go to [this link](https://developer.android.com/studio/) and select “Download Android Studio for Windows”.
+
+• Check the “ I have read and agree with the above terms and conditions” box and Download Android Studio For Windows.
+
+• Install studio after downloading. Keep on clicking next button and at last click finish.
+
+  <center>
+      <a href="{{ "images/installation/finish.PNG" | prepend: site.asset_add }}">
+          <img src="{{ "images/installation/finish.PNG" | prepend: site.asset_add }}" alt="Install Setup" style="width:80%;">
+      </a>
+  </center>
+
+• Android Studio will open up. A window similar to the below one would appear.
+
+  <center>
+      <a href="{{ "images/installation/import.PNG" | prepend: site.asset_add }}">
+          <img src="{{ "images/installation/import.PNG" | prepend: site.asset_add }}" alt="Import" style="width:80%;">
+      </a>
+  </center>
+
+• Select Do not import settings since you don't have any. Again keep on clicking next and at last finish. It will take some time for downloading files.
+
+  <center>
+      <a href="{{ "images/installation/downloading.PNG" | prepend: site.asset_add }}">
+          <img src="{{ "images/installation/downloading.PNG" | prepend: site.asset_add }}" alt="Downloading Components"
+          style="width:80%;">
+      </a>
+  </center>
+
+• There are still some dependencies left to install. These can be install by building your first project so head to [recommended](#recommended) section for things you'll need for this lecture.
+
+<a name="linux_users"></a>
+## Linux Users
 
 ### Installing IDE
 
@@ -138,12 +97,12 @@ There is no need to install Java as latest Android Studio versions already come 
    <a href="{{ "/images/installation/import_settings.png" | prepend: site.asset_add }}">
 	   <img src="{{ "/images/installation/import_settings.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
    </a>
-   
+
 6. You will now see the Android Studio Setup wizard as shown below.
    <a href="{{ "/images/installation/setup_wizard_start.png" | prepend: site.asset_add }}">
 	   <img src="{{ "/images/installation/setup_wizard_start.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
    </a>
-   
+
 7. Keep on clicking next until you see a Dialog similar to one below. Click Finish.
    <a href="{{ "/images/installation/setup_wizard_finish.png" | prepend: site.asset_add }}">
 	   <img src="{{ "/images/installation/setup_wizard_finish.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
@@ -155,6 +114,7 @@ There is no need to install Java as latest Android Studio versions already come 
    </a>
 
 9. The Android Studio window shall open. Click the option *Create Desktop Entry* from the *Configure Menu* to create shortcut to android studio in launcher. This avoids the need to open the terminal each time you want to launch the Studio.
+
    <a href="{{ "/images/installation/desktop_entry.png" | prepend: site.asset_add }}">
 	   <img src="{{ "/images/installation/desktop_entry.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
    </a>
@@ -193,7 +153,7 @@ __Bring your USB cable so that you can test application on your own device!__
 7. Click *OK* and wait for your first app to run on your own phone.
 
 
-These steps are necessary for first time user to ensure everything is downloaded when you come to the lecture. 
+These steps are necessary for first time user to ensure everything is downloaded when you come to the lecture.
 
 If you have any trouble setting up your development environment, feel free to [contact us](/chat "MDG chat")!
 
@@ -203,7 +163,7 @@ If you have any trouble setting up your development environment, feel free to [c
 	1. Turn off the firewall.
 	2. Run Studio again.
 	3. Add android files to trusted files in your windows firewall and restart the firewall.
-* Your Android SDK is missing, out of date, or is missing templates. You can configure your SDK via Configure -> Project Defaults -> Project Structure -> SDKs: 
+* Your Android SDK is missing, out of date, or is missing templates. You can configure your SDK via Configure -> Project Defaults -> Project Structure -> SDKs:
     * [Your Android SDK is missing , out of date,or is missing templates](http://stackoverflow.com/questions/26796724/your-android-sdk-is-missing-out-of-date-or-is-missing-templates)
 * Unable to locate adb within SDK:   
     * [ADB error on Android SDK. Using Linux Ubuntu 64 bit 12.10](http://stackoverflow.com/questions/14421171/adb-error-on-android-sdk-using-linux-ubuntu-64-bit-12-10) - StackOverflow  
