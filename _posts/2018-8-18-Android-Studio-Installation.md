@@ -13,27 +13,19 @@ tags: [intro]
 With over **1 billion** Android devices already activated, Android represents an incredible opportunity for developers.
 Android Studio is a latest and most widely accepted IDE designed by Google itself. If you want to develop apps in android then it is highly recommended to use Android Studio.
 
-----------
-
 ## Quick Overview ##
 A typical native android application is written using XML for the frontend (the User Interface) and JAVA for the backend.
 
-----------
 **JAVA**
 All the programming part in android development is done using JAVA. Although it’s a great advantage, if you know a thing or two about programming in Java, but even if you know any object oriented programming language, then it will not be much difficult to relate to the concepts used during development. In short if you know C++ or C then also you are at peace.
 
-
-----------
 **XML**
 This is used to build the app’s user interface. All user interface elements in an Android app are built using View and ViewGroup objects. It has drag and drop User Interface
 
-
-----------
 **Running the app**
 An android application can run either on your device or in the emulator that comes bundled with the SDK. Since the emulators can be slow, it is always recommended to use an actual device. [This link](http://developer.android.com/intl/zh-cn/training/basics/firstapp/running-app.html) contains the detailed explanation for setting up your device/emulator for testing.
 
 
-----------
 
 Installation of Android Studio
 ------------------
@@ -55,31 +47,31 @@ There is no need to install Java as latest Android Studio versions already come 
 
 • Install studio after downloading. Keep on clicking next button and at last click finish.
 
-<center>
-    <a href="{{ "images/installation/configure.png" | prepend: site.asset_add }}">
-        <img src="{{ "images/installation/finish.PNG" | prepend: site.asset_add }}" alt="Install Setup" style="width:80%;">
-    </a>
-</center>
+  <center>
+      <a href="{{ "images/installation/finish.PNG" | prepend: site.asset_add }}">
+          <img src="{{ "images/installation/finish.PNG" | prepend: site.asset_add }}" alt="Install Setup" style="width:80%;">
+      </a>
+  </center>
 
 • Android Studio will open up. A window similar to the below one would appear.
-<center>
-    <a href="{{ "images/installation/configure.png" | prepend: site.asset_add }}">
-        <img src="{{ "images/installation/import.PNG" | prepend: site.asset_add }}" alt="Import" style="width:80%;">
-    </a>
-</center>
+
+  <center>
+      <a href="{{ "images/installation/import.PNG" | prepend: site.asset_add }}">
+          <img src="{{ "images/installation/import.PNG" | prepend: site.asset_add }}" alt="Import" style="width:80%;">
+      </a>
+  </center>
 
 • Select Do not import settings since you don't have any. Again keep on clicking next and at last finish. It will take some time for downloading files.
 
-<center>
-    <a href="{{ "images/installation/configure_linux.jpg" | prepend: site.asset_add }}">
-        <img src="{{ "images/installation/downloading.PNG" | prepend: site.asset_add }}" alt="Downloading Components"
-        style="width:80%;">
-    </a>
-</center>
+  <center>
+      <a href="{{ "images/installation/downloading.PNG" | prepend: site.asset_add }}">
+          <img src="{{ "images/installation/downloading.PNG" | prepend: site.asset_add }}" alt="Downloading Components"
+          style="width:80%;">
+      </a>
+  </center>
 
 • There are still some dependencies left to install. These can be install by building your first project so head to [recommended](#recommended) section for things you'll need for this lecture.
 
-___
 <a name="linux_users"></a>
 ## Linux Users
 
@@ -122,6 +114,7 @@ ___
    </a>
 
 9. The Android Studio window shall open. Click the option *Create Desktop Entry* from the *Configure Menu* to create shortcut to android studio in launcher. This avoids the need to open the terminal each time you want to launch the Studio.
+
    <a href="{{ "/images/installation/desktop_entry.png" | prepend: site.asset_add }}">
 	   <img src="{{ "/images/installation/desktop_entry.png" | prepend: site.asset_add }}" alt="New Project" style="width:100%;">
    </a>
