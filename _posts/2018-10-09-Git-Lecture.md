@@ -1,4 +1,11 @@
-# Git Lecture :green_book:
+---
+layout: post
+title: Git Lecture
+tagline: Github Lecture.
+visible: 1
+category: Introduction
+tags: [intro]
+---
 
 ## What is VCS?
 - Version Control System stores changes in file(s) over time so we can check out any version anytime.
@@ -8,9 +15,13 @@
 
 ## Git vs other VCSs
 Most of the VCSs think of the information they store as a set of files and the changes made to each file over time (delta based version control).<br> 
- <img src = "images/git-lecture/deltas.png" width = "700" height="200" /><br> 
+<a href="{{ "images/git-lecture/deltas.png" | prepend: site.asset_add }}">
+          <img src="{{ "images/git-lecture/deltas.png" | prepend: site.asset_add }}" alt="Install Setup" width = "700" height="200" />
+      </a><br> 
 Git thinks of its data as a stream of snapshots. Each time we store data a snapshot is taken of all files at that time. For increasing efficiency, the files that aren't changed are referenced from previous commit. This makes common operations faster.<br>
-<img src = "images/git-lecture/snapshots.png" width = "700" height="200" /><br>
+<a href="{{ "images/git-lecture/snapshots.png" | prepend: site.asset_add }}">
+          <img src="{{ "images/git-lecture/snapshots.png" | prepend: site.asset_add }}" alt="Install Setup" width = "700" height="200" />
+      </a><br> 
  
 ## Install Git
 ### For Linux
@@ -96,7 +107,9 @@ $ export GIT_EDITOR=subl
 		- **Staged** means that you have marked a modified file in its current version to go into your next commit snapshot.
 		
 		#### The Staging Area
-		<img src = "images/areas.png" width = "500" height="200" /><br>
+		<a href="{{ "images/git-lecture/areas.png" | prepend: site.asset_add }}">
+          <img src="{{ "images/git-lecture/areas.png" | prepend: site.asset_add }}" alt="Install Setup" />
+      </a><br> 
 		**Note -**<br> Working Directory is also knows as **Working Tree**. Also, the Staging Area is referred to as **Index**. It acts as an interface between working tree and repository.
 		- Any time you see your project, its state can be understood as 
 			> Project = ".git Repository" + "changes in Index" + "changes in Working directory"
