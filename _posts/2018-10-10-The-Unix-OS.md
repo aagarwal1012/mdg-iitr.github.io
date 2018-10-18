@@ -50,7 +50,6 @@ Some common commands
   * `-a` : files that are normally hidden
 * `mkdir` : To make a subdirectory called unixstuff in your current
  working directory type
-
 * `cp path1 path2` : to copy file specified by path1 to the
   destination specified by path2
 * `mv path1 path2` : to move/rename
@@ -85,8 +84,9 @@ Some common commands
 
 The directory structure  
 --------
+
 | Path | Description |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------|---------------------------------------------------------------------------------------|
 | / | This is the root directory which should contain only the directories needed at the top level of the file structure |
 | /bin | This is where the executable files are located. These files are available to all users |
 | /dev | These are device drivers |

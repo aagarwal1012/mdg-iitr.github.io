@@ -8,7 +8,7 @@ tags: [intro]
 ---
 
 **Structure**<br><br>
-    <center>![ViewStructure](../assets/images/android-layouts/view_structure.png)</center><br>
+![ViewStructure](/assets/images/android-layouts/view_structure.png) <br>
 
 ## What is a ViewGroup?
 A viewgroup is a parent class of all the views. It holds all the children views (and viewgroups) within, as depicted by the structure above.<br>
@@ -112,7 +112,7 @@ A viewgroup is a parent class of all the views. It holds all the children views 
     - The layout editor uses constraints to identify the position of a view on the screen.
     - The attributes like `android:layout_constraintTop_toTopOf`, `android:layout_constraintTop_toBottomOf` and other similar attributes are used to set constraints to views w.r.t. other views.
     - It supports **chaining** of views, using which the views can be easily positioned over a space, and works much better than using a combo of weights and gravity to achieve a configuration. The attributes `android:layout_constraintHorizontal_chainStyle` and `android:layout_constraintVertical_chainStyle` can be supplied various values to produce the following effects:<br><br>
-            <center>![chains]("../assets/images/android-layouts/chains.png")</center><br><br>
+      ![chains](/assets/images/android-layouts/chains.png) <br><br>
     - Supports horizontal and vertical bias,by which we can tweak the positioning to favor one side over another using the bias attributes.<br><br>
         **Usage:**<br><br>
 
@@ -124,7 +124,7 @@ A viewgroup is a parent class of all the views. It holds all the children views 
               app:layout_constraintRight_toRightOf="parent/>
         ```
         The above code produces a button like:<br><br>
-        ![bias](../assets/images/android-layouts/bias.png) <br><br>
+        ![bias](/assets/images/android-layouts/bias.png) <br><br>
     - It also provides a view called `Guideline` using which you can have an imaginary line (which is not a view) anywhere on the screen and position views according to it. You can position this guideline by providing it either a fixed value or a percentage value (w.r.t. the screen). 
 
 <br>
