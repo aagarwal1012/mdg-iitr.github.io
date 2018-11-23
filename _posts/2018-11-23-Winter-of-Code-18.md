@@ -25,7 +25,21 @@ The programme will begin with the submissions of student proposals. After carefu
 
 <b>Deadline for proposal :</b> 11:59 PM, 30 November, 2018
 
-<b>Project timeline :</b> 3 December - 30 December (4 weeks)
+<b>Project duration :</b> 3 December - 3 January 
+
+<br>
+
+## <b>Timline</b>
+
+<b>30th November, 2018 -</b> Deadline for proposal 
+
+<b>2nd December, 2018 -</b> List of accepted proposals released 
+
+<b>10th December, 2018 -</b> Initial feedback & connect 
+
+<b>20th December, 2018 -</b> Mid-Term evaluation & connect 
+
+<b>3rd January, 2018 -</b> Final evaluation & connect 
 
 <br>
 
