@@ -46,13 +46,18 @@ The programme will begin with the submissions of student proposals. After carefu
 ##<b>Types of Proposals</b>
 
  <b>1. Existing MDG Projects : </b>
-   Students wishing to collaborate with MDG on their existing projects can choose from any of the projects given [below](#projects). Before submitting proposals for contributing to one of the existing projects, take a detailed analysis of the project. Go through their Github repos and take a look at their READMEs and Contributing guides. After choosing the project, students have to submit their  proposal stating the strategy and timeline which they will be following during the programme to implement the TODOs as per project requirements mentioned in the READMEs. Students can also suggest any new changes or features(optional) which they wish to include in the project. To get an understanding of how proposals are to be drafted, take a look at this [blog](http://teom.org/blog/kde/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/) or take a look at this original [GSOC proposal](https://docs.google.com/document/d/18RtcDatYzZ1gpztFUM8K2MUaYfIAwvVFIJKCR-xf6BE/edit?usp=sharing) by one of MDG's alumni.
-
+   Students wishing to collaborate with MDG on their existing projects can choose from any of the projects given [below](#projects). Before submitting proposals for contributing to one of the existing projects, take a detailed analysis of the project. Go through their Github repos and take a look at their READMEs and Contributing guides. After choosing the project, students have to submit their  proposal stating the strategy and timeline which they will be following during the programme to implement the TODOs as per project requirements mentioned in the READMEs. Students can also suggest any new changes or features(optional) which they wish to include in the project. To get an understanding of how proposals are to be drafted, take a look at this [blog](http://teom.org/blog/kde/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/) or take a look at this original [GSOC proposal](https://docs.google.com/document/d/18RtcDatYzZ1gpztFUM8K2MUaYfIAwvVFIJKCR-xf6BE/edit?usp=sharing) by one of MDG's alumni, you can also checkout this previous year [WOC proposal](https://drive.google.com/file/d/1xqoZVCLCVPIDWOqsCG-Mb_KW626AvhAf/view?ts=5bf7cb79).
 
  <b>2. Proposed apps by students : </b>
     Students can submit their own unique ideas on which they would like to work in the program. While submitting their ideas, students should keep in mind that their ideas should be feasible and genuine. They are also expected to avoid casual and easy stuff such as alarms and calculators in their ideas.
 
-<a name = "projects"></a>
+Here are few previous year proposals which were selected for WoC :
+
+* [Time Managment app](https://drive.google.com/file/d/1SpBuewyhZk8wta9u4qw-5FyLg_G_EQkW/view?ts=5bf7cb6c) proposal
+* [Let's find it!](https://docs.google.com/document/d/1dftOpMQ66thYFwXhsDWaarqQ437vT6cKrV81Jl8FQgs/edit?ts=5bf7cb82) app proposal
+* [Plated](https://drive.google.com/file/d/1Ddu_W2qjYGm5yCSvouJaEc6E2g9FP20H/view?ts=5bf7cb5c) app proposal  
+
+
 
 <br>
 
