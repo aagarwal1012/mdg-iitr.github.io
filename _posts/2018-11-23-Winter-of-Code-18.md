@@ -52,7 +52,7 @@ The programme will begin with the submissions of student proposals. After carefu
     Students can submit their own unique ideas on which they would like to work in the program. While submitting their ideas, students should keep in mind that their ideas should be feasible and genuine. They are also expected to avoid casual and easy stuff such as alarms and calculators in their ideas.
 
 <br>
-
+<a name="projects"></a>
 ## <b> Our Projects </b>
 
 #### <b> EmojiReactionView</b>
@@ -89,4 +89,4 @@ To get more insight into writing a successful proposal for Winter of Code, you m
 
 <br>
 
-*So guys, grab your cup of coffee(or tea, redbull etc.) and prepare yourself for a month long journey of writing beautiful software.Users can customize the look to a great extent easily and reliably.*
+*So guys, grab your cup of coffee (or tea, redbull etc.) and prepare yourself for a month long journey of writing beautiful software. Users can customize the look to a great extent easily and reliably.*
