@@ -20,5 +20,5 @@ The following are the students selected for the Winter of Code 2018. Congratulat
 | Rutvik Gulhane	        | 18112071 	   |
 | Siddhant Yadav	        | 18122022 	   |
 | Vinay Kumar Jain	        | 18114082 	   |
-
-For those who are not selected, don't loose heart. We have another stupendous hackathon lined up for you - Droid Wars, the official recruitment hackathon for MDG. You will travel to the land of your dreams, build your own sarahah and explore the secret of Prisma with your own hands. So stay tuned ! Blog post will be released soon.
+<br/>
+For those who are not selected, don't lose heart. We have another stupendous hackathon lined up for you - Droid Wars, the official recruitment hackathon for MDG. You will travel to the land of your dreams, build your own sarahah and explore the secret of Prisma with your own hands. So stay tuned ! Blog post will be released soon.
