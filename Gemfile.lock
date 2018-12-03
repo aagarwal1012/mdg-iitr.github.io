@@ -85,6 +85,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-seo-tag (2.5.0)
+      jekyll (~> 3.3)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -174,6 +176,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -184,8 +187,10 @@ DEPENDENCIES
   jekyll-geo-pattern
   jekyll-github-metadata
   jekyll-paginate
+  jekyll-seo-tag
   kramdown
   rough
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.17.1
