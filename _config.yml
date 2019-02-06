@@ -12,7 +12,8 @@ data-ad-client:
 google_ad_client: 
 google_analytics: UA-130176376-1
 addthis_id: 
-disqus_account: mdg-sdslabs-co
+disqus_account: mdg-iitr-ac-in
+# disqus_account: mdg-sdslabs-co
 
 # Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
 social:
